@@ -1,0 +1,96 @@
+#boton{
+    border:2px solid #FF7F50;
+    background: #FF7F50;
+    padding: 7px;
+    color: white;
+    text-decoration: none;   
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    float: right;
+    
+}
+header{
+    width: 100%;
+	position: fixed;
+   
+}
+.cabecera{
+    padding: 0px;
+    position: fixed;       
+    top: 0;
+    left: 0;
+    width: 100%;        
+    background: #eee;
+    margin-right: 20px;
+    margin-top: 0px;
+    transition: all 0.3s;
+     border-bottom: 2px solid #FF7F50;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+.sidebar{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    outline: 1px solid #2a2a2a;
+}
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #2a2a2a;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li{
+    outline: 1px solid #2a2a2a;
+    transition: all 0.3s;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar li:hover{
+    background: #444;
+    border-left: 5px solid #eee;
+text-decoration: none;
+}
+.sidebar a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #eee;
+    padding: 30px;
+    transition: all 0.5s;
+}
+
+.menu-bar{
+    cursor: pointer;
+    margin: 0px 0px 20px 1px;
+    float: left;
+}
+.inicio{
+    cursor: pointer;
+    float: left;
+    margin: 0px 0px 20px 10px;    
+}
+.abrir{
+    transform: translateX(250px);
+}
+.form-inline{
+    float: left;
+    width: 300px;
+    margin: 40px 0px 0px 40px;  
+}
